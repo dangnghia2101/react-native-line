@@ -66,5 +66,5 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 /example/ios/Pods/
-
-dist/
+# build dist wihtout author approve
+# dist/
