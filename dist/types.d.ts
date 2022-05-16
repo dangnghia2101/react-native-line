@@ -1,15 +1,15 @@
 export interface AccessToken {
-    access_token: String;
-    expires_in: String;
-    id_token?: String;
+    access_token: string;
+    expires_in: string;
+    id_token?: string;
 }
 export interface BotFriendshipStatus {
     friendFlag: boolean;
 }
 export interface AccessTokenVerifyResult {
-    client_id: String;
-    expires_in: String;
-    scope: String;
+    client_id: string;
+    expires_in: string;
+    scope: string;
 }
 export declare enum BotPrompt {
     AGGRESSIVE = "aggressive",
@@ -27,13 +27,13 @@ export declare enum LoginPermission {
 }
 export interface LoginResult {
     accessToken: AccessToken;
-    scope: String;
+    scope: string;
     userProfile?: UserProfile;
     friendshipStatusChanged?: boolean;
-    IDTokenNonce?: String;
+    IDTokenNonce?: string;
 }
 export interface UserProfile {
-    userID: String;
+    userID: string;
     displayName: string;
     pictureURL?: string;
     statusMessage?: string;
